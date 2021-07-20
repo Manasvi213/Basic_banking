@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: 23px;
+}
+.container h1{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+}
+p {
+    font-size: 17px;;
+}
+input ,textarea{
+    display: block;
+    border: 2px solid black;
+    border-radius:6px;
+    width: 80%;
+    margin: 11px 0px;
+    font-size: 24px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+}
+.btn{
+    color:white;
+    background-color: rgb(32, 110, 226);
+    font-size: 15px;
+    text-align: center;
+
+}
+.btn:hover{
+  background-color: rgb(230, 22, 22);
+  color:black;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.6;
+}
+.submitmsg{
+    font-size: 25px;
+    color: green;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(10, 10, 10);
+  color: white;
+  text-align: center;
+}
+
+
+/*about us*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+.row{
+  margin-bottom: 250px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 2px;
+}
+
+.about-section {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(88, 220, 230);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 10%;
+    display: block;
+  }
+}
+
